@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 // import { typeWriter } from "../functions/typewriter";
 import "../css/AboutMe.css";
-import Jhan from "../img/jhan.jpg";
+import Jhan from "../img/jhan.png";
 
 export const AboutMe = () => {
 
