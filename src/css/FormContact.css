@@ -1,0 +1,49 @@
+:root {
+    --form-width: 300px;
+    --form-height: 400px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form {
+    background: linear-gradient(to top, rgb(130, 0, 149), rgb(177, 0, 205));
+    border-radius: 3px;
+    padding: 15px;
+    margin: 20px;
+    width: 70%;
+    max-width: 400px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input {
+    /* color: var(--font); */
+    padding: 3px 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.input-box input:focus {
+    outline: none;
+    border: none;
+}
+
+.input-box textarea {
+    border: none;
+    resize: none;
+    padding: 5px;
+}
+
+.input-box textarea:focus {
+    outline: none;
+    border: none;
+}
+
+

@@ -1,0 +1,82 @@
+.container-about-me {
+    border: 1px var(--border) solid;
+    background: rgb(0, 0, 0, 0.4);
+    max-height: max-content;
+    margin: 10%;
+}
+
+.about-me {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 400px) {
+    .about-me-text h1 {
+        font-size: 30px;
+    }
+}
+
+.about-me-text {
+    border-radius: 3px;
+    /* padding: 20px; */
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-me-text h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.about-me-text p {
+    font-weight: 200;
+}
+
+.about-me-img {
+    margin-left: 30px;
+}
+
+.about-me-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+    .about-me {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-me-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-about-me {
+        flex-direction: column;
+        /* margin: 0 30rem; */
+    }
+
+    .about-me-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .about-me-img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-about-me {
+        flex-direction: column;
+    }
+}
