@@ -40,19 +40,19 @@ export const NavBar = () => {
                     </div>
                     <div className={list}>
                         <ul>
-                            <li><HashLink to="/" className="link">Home</HashLink>
+                            <li><HashLink to="/portfolio-jhan" className="link">Home</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/#about" className="link">About me</HashLink>
+                                <HashLink to="/portfolio-jhan/#about" className="link">About me</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/#skills" className="link">Skills</HashLink>
+                                <HashLink to="/portfolio-jhan/#skills" className="link">Skills</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/#projects" className="link">Projects</HashLink>
+                                <HashLink to="/portfolio-jhan/#projects" className="link">Projects</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/#form-contact" className="link">Contact</HashLink>
+                                <HashLink to="/portfolio-jhan/#form-contact" className="link">Contact</HashLink>
                             </li>
                         </ul>
                     </div>
