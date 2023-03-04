@@ -3,7 +3,7 @@ import { HomePage } from '../pages/HomePage.jsx';
 
 export const routes = createBrowserRouter([
     {
-        path: '/',
+        path: '/portfolio-jhan',
         element: <HomePage/>
     }
 ])
